@@ -143,5 +143,7 @@ public class Target : MonoBehaviour {
 				GetComponent<CapsuleCollider> ().isTrigger = true;
 				isAlive = false;
 
+		agent.Stop ();
+
 			}	
 }
